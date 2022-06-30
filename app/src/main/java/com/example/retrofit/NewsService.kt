@@ -18,10 +18,10 @@ interface NewsInterface {
 object NewsService{
     val newsInstance:NewsInterface
     init {
-        val retrofit= Retrofit.Builder()
+        val retrofit = Retrofit.Builder()
             .baseUrl(Base_url)
             .addConverterFactory(GsonConverterFactory.create())
             .build()
-        newsInstance=retrofit.create(NewsInterface::class.java)
+        newsInstance = retrofit.create(NewsInterface::class.java)
     }
 }

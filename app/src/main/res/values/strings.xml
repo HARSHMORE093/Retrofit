@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Retrofit</string>
+    <string name="newsfeed">News Feed</string>
+    <string name="source">source</string>
+    <string name="title">title</string>
+    <string name="description">description</string>
+    <string name="published_at">published_at</string>
+    <string name="todo">TODO</string>
 </resources>
